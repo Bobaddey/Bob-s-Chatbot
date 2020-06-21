@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Chatbot</title>
+  </head>
+  <body>
+    <header>
+      <h1 style="color:white;">Bob's Chatbot</h1>
+    </header>
+    <main>
+      <div class="container">
+        <h1>welcome</h1>
+        <h2">Bob's Questionnaire</h2>
+        <h4>i would love to ask you some questions</h4>
+        <button class="btn" id="talk">Click to start</button>
+      </div>
+      <div class="chatbox-overlay">
+        <div class="close-btn" title="close chat">
+          <i class="fa fa-times"></i>
+        </div>
+        <div class="chatbox"></div>
+        <div class="user-input">
+          <input
+            type="text"
+            name="user-input"
+            id="user-input"
+            placeholder="enter your reply"
+          />
+          <button class="btn" id="send">send</button>
+        </div>
+      </div>
+    </main>
+    <footer style="color: black;">Designed by <a href="http://github.com/bobaddey"style="color: black;"> Bobaddey</a></footer>
+    <script src="./assets/js/app.js"></script>
+  </body>
+</html>
