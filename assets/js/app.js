@@ -83,16 +83,16 @@ function updateDetails(response, index) {
       userDetails.name = response;
       break;
     case 2:
-      userDetails.username = response;
+      userDetails.address = response;
       break;
     case 3:
-      userDetails.track = response;
+      userDetails.meal = response;
       break;
     case 4:
-      userDetails.stage = response;
+      userDetails.jollof = response;
       break;
     case 5:
-      userDetails.id = response;
+      userDetails.foodie = response;
       break;
     default:
       break;
