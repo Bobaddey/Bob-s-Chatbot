@@ -41,7 +41,7 @@ function showBotResponse(index) {
       chatbox.innerHTML += `<div class="bot">Hi, <span>${name}</span>, ${questions[index]}</div>`;
       break;
     case 2:
-      chatbox.innerHTML += `<div class="bot"><span> ${address}</span> people i stan! , ${questions[index]}</div>`;
+      chatbox.innerHTML += `<div class="bot"><span> I stan for ${address}</span> people!, ${questions[index]}</div>`;
       break;
     case 3:
       chatbox.innerHTML += `<div class="bot">Awesome!, ${questions[index]}</div>`;
